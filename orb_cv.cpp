@@ -17,8 +17,8 @@ int main(void){
         
     }*/
     
-    Mat img_1 = imread("/home/songzhimo/slam_training/ORB_featurePointExtract/test1.jpeg",1);
-    Mat img_2 = imread("/home/songzhimo/slam_training/ORB_featurePointExtract/test2.jpeg",1);
+    Mat img_1 = imread("/home/songzhimo/slam_training/ORB_featurePointExtract1/1.png",1);
+    Mat img_2 = imread("/home/songzhimo/slam_training/ORB_featurePointExtract1/2.png",1);
     
     assert(img_1.data != nullptr && img_2.data != nullptr );
     //read the graph
